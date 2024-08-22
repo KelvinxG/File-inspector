@@ -1,9 +1,17 @@
+### Introduction
+Navigate through storage to pinpoint which file is used and how much do they use can be tedious. this is why this File-inspector exist.
+hopefully it will improve further as we go
+
 ### How to Use the Disk Usage Script with Matplotlib and Plotly Visualization Options
 
 This Python script is designed to help you analyze the disk usage of folders on your drive, specifically focusing on the parent folders within a specified root directory (e.g., `D:\`). It calculates the total size of each folder and provides options to visualize the data using either `matplotlib` (for static pie charts) or `plotly` (for interactive pie charts).
 
+it's written by me @kelvinxG and with the help of chatgpt
+#### Python version:
+- python 3.11
+
 #### Prerequisites:
-- Python 3.x installed on your system.
+- Python installed on your system.
 - Required Python packages:
   - `matplotlib`
   - `plotly`
@@ -80,4 +88,6 @@ This Python script is designed to help you analyze the disk usage of folders on 
 
 This script provides a flexible and efficient way to analyze and visualize disk usage on your system. By offering both static and interactive visualization options, it caters to different use cases and preferences. Whether you're monitoring disk space for personal use or managing resources in an organization, this script can help you gain valuable insights quickly and effectively.
 
-Feel free to customize and expand the script further to suit your specific needs!
+### further improvement
+
+-** add max_depth , doesn't show when it's more than 5 level deep.
